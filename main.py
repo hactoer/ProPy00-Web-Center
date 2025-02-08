@@ -4,9 +4,9 @@ def main():
     st.set_page_config(
         page_title='ProPy00 Web Center',
         page_icon='💾',
-        Layout='centered',
+        layout='centered',
         initial_sidebar_state='auto'
-)     
+)   
+    PEND()  
     TOCW()
-    PEND()
 if __name__=='__main__':main()
