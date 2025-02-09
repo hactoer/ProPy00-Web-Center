@@ -30,3 +30,7 @@ def TOCW():#table of contents web
     st.markdown('---')
     st.markdown('<a href="https://pdf-compress-programmerpython00-mvuzreq28l3eoxt8yue6dla.streamlit.app" target="_blank">[PDF 壓縮器]</a>'
                 ,unsafe_allow_html=True)
+def SF():#Search Function
+    with open('searchstyle.css') as f:
+        st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
+        ...
