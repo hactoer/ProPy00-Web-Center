@@ -31,3 +31,19 @@ body{
 .search-container input[type='text']{
     border-color: #e64a19;
 }
+.search-result{
+    background-color:  #F1F1F1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.result-title{
+    font-size: 22px;
+    color: #FF5722;
+}
+.no-results{
+    font-size: 20px;
+    color: #999999;
+}
+}
