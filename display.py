@@ -33,4 +33,5 @@ def TOCW():#table of contents web
 def SF():#Search Function
     with open('searchstyle.css') as f:
         st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
+    SearchQuery=st.text_input('',key='search_box',placeholder='🔍Enter something...',max_chars=50)
         ...
