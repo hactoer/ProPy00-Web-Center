@@ -1,3 +1,5 @@
 streamlit
 panda
 jieba
+gspread
+google-auth
